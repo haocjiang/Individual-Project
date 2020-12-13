@@ -32,7 +32,7 @@ app = dash.Dash(__name__, external_stylesheets=stylesheet)
 server = app.server
 
 app.layout = html.Div([
-    html.H1('Dash Analyse!', style={'textAlign': 'center'}),
+    html.H1('Game Dashboard Analyse!', style={'textAlign': 'center'}),
     html.Br(),
     html.Div(
         [html.Div(["Type: ", dcc.Dropdown(options=all_types,
