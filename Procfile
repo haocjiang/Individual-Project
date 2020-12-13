@@ -1,1 +1,1 @@
-web: gunicorn individual-project_dashboard:server
+web: gunicorn data_search_dashboard:server
