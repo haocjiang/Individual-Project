@@ -1,1 +1,1 @@
-web: gunicorn dash2:server
+web: gunicorn project:server
